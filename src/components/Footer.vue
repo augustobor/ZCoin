@@ -1,14 +1,14 @@
 <template>
   <div id="footer">
-    <button>
+    <router-link to="/">
       <img src="../../assets/layers.svg" alt="layers" />
-    </button>
-    <button>
+    </router-link>
+    <router-link to="/exchange">
       <img src="../../assets/exchange.svg" alt="exchange" />
-    </button>
-    <button>
+    </router-link>
+    <router-link to="/">
       <img src="../../assets/statics.svg" alt="statics" />
-    </button>
+    </router-link>
   </div>
 </template>
 
@@ -32,14 +32,14 @@ export default {
   height: 7vh;
 }
 
-#footer button {
+#footer router-link {
   border-style: none;
   border-radius: 5px;
   background-color: transparent;
   border-radius: 50%;
 }
 
-#footer button:hover {
+#footer router-link:hover {
   background-color: var(--dapps-color-extra);
   transition: all 500ms ease;
 }
