@@ -27,7 +27,4 @@ export default {
 };
 </script>
 <style>
-.home {
-  background-color: var(--dapps-color-dark);
-}
 </style>

@@ -18,5 +18,6 @@
 
 #app {
   height: auto;
+  background-color: var(--dapps-color-dark);
 }
 </style>
