@@ -43,7 +43,7 @@ form {
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 2.7rem;
+  margin-top: 2.4rem;
 }
 
 form > h2 {

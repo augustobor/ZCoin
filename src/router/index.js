@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ExchangeView from "../views/ExchangeView.vue";
+import FomoView from "../views/FomoView.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/exchange",
     name: "exchange",
     component: ExchangeView,
+  },
+  {
+    path: "/indexes",
+    name: "indexes",
+    component: FomoView,
   },
 ];
 

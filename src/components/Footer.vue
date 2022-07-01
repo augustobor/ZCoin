@@ -6,7 +6,7 @@
     <router-link to="/exchange">
       <img src="../../assets/exchange.svg" alt="exchange" />
     </router-link>
-    <router-link to="/">
+    <router-link to="/indexes">
       <img src="../../assets/statics.svg" alt="statics" />
     </router-link>
   </div>
