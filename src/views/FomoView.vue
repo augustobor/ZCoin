@@ -1,7 +1,9 @@
 <template>
   <Header></Header>
-  <Fomo></Fomo>
-  <SocialData></SocialData>
+  <div class="fomo-view-container">
+    <Fomo></Fomo>
+    <SocialData></SocialData>
+  </div>
   <Footer></Footer>
 </template>
 <script>
@@ -23,5 +25,10 @@ export default {
 <style>
 SocialData {
   margin-bottom: 50rem;
+}
+
+.fomo-view-container {
+  overflow-x: hidden;
+  height: 79vh;
 }
 </style>

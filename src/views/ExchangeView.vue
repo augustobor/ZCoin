@@ -1,7 +1,9 @@
 <template>
   <Header></Header>
-  <Graph></Graph>
-  <Exchange></Exchange>
+  <div class="exchange-view-container">
+    <Graph></Graph>
+    <Exchange></Exchange>
+  </div>
   <Footer></Footer>
 </template>
 <script>
@@ -22,4 +24,9 @@ export default {
 },
 };
 </script>
-<style></style>
+<style>
+.exchange-view-container {
+  overflow-x: hidden;
+  height: 79vh;
+}
+</style>

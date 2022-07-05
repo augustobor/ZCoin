@@ -46,6 +46,7 @@ export default {
 <style>
 .horizontal-scroll {
     height: 15vh;
+    margin: 0 1rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
     display: flex;

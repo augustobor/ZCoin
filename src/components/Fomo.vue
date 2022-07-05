@@ -23,4 +23,11 @@ export default {
     margin-bottom: 3rem;
 }
 
+@media screen and (min-width: 500px) {
+  .metric {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0rem;
+  }
+}
 </style>

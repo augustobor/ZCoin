@@ -43,7 +43,7 @@ form {
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 2.4rem;
+  margin-top: 2.5rem;
 }
 
 form > h2 {
@@ -78,9 +78,9 @@ input::placeholder {
 }
 
 .switch-blue {
-  margin: 2% 47%;
-  width: 10%;
-  height: 10%;
+  margin: 0.3rem 47%;
+  width: 2rem;
+  height: 2rem;
 }
 
 #exchangeButton {
@@ -90,7 +90,7 @@ input::placeholder {
   color: var(--dapps-color-white);
   font-weight: bold;
   font-size: large;
-  margin: 10% 30%;
+  margin: 2rem 4.5rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -106,6 +106,20 @@ input::placeholder {
 
 #exchangeButton:active {
   background-color: var(--dapps-color-semi-light);
+}
+
+@media screen and (min-width: 500px) {
+  form {
+    margin-top: 0rem;
+  }
+  input { 
+    width: 20vw;
+    font-size: x-large;
+  }
+  #exchangeButton {
+    margin: 2% 32%;
+    width: 30vw;
+  }
 }
 
 </style>

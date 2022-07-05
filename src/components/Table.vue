@@ -73,6 +73,12 @@ table {
 }
 
 .table .row {
-  width: 100%;
+  width: 97%;
+}
+
+@media screen and (min-width: 500px) {
+  .table {
+    height: 52.8vh;
+  }
 }
 </style>
