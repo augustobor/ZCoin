@@ -25,13 +25,11 @@ export default {
 @import "../stylesheets/config.css";
 
 .row {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 2rem;
-  padding: 2%;
   transition: all 100ms ease;
 }
 
@@ -51,5 +49,25 @@ export default {
 .row:hover {
   background-color: var(--dapps-color-semi-light);
   transition: all 100ms ease;
+}
+
+@media screen and (min-width: 500px) {
+  .row {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .row > img {
+    width: 8%;
+    height: 8%;
+  }
+
+  .row h3 {
+    font-size: xx-large;
+  }
+
+  .row p {
+    font-size: x-large;
+  }
 }
 </style>

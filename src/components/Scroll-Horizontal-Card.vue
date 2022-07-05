@@ -35,7 +35,7 @@ export default {
 .scroll-horizontal-card > article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -50,4 +50,16 @@ export default {
   font-weight: bold;
   color: var(--dapps-color-dark);
 }
+
+@media screen and (min-width: 500px) {
+  .scroll-horizontal-card {
+    width: 20%;
+    padding: 3%;
+  }
+}
+
+/* 
+@media screen and (min-width: 1000px) {
+  
+} */
 </style>

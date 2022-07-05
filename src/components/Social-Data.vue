@@ -35,6 +35,13 @@ export default {
 
 #SocialData {
   margin-top: 2rem;
-  margin-bottom: 7.7rem;
+  margin-bottom: 9rem;
+}
+
+@media screen and (min-width: 500px) {
+  #SocialData {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 </style>

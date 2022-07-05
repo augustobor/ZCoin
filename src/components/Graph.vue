@@ -45,7 +45,15 @@ h2 {
 }
 
 .graph {
-  width: 100%;
+  width: 320px;
 }
 
+@media screen and (min-width: 500px) {
+  .graph {
+    width: 60%;
+  }
+  .graph-container {
+    justify-content: center;
+  }
+}
 </style>
