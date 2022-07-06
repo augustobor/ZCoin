@@ -58,8 +58,19 @@ export default {
   }
 }
 
-/* 
 @media screen and (min-width: 1000px) {
-  
-} */
+  .scroll-horizontal-card {
+    background-color: transparent;
+    box-shadow: 0px 4px 16px rgba(34, 148, 200, 0.25);
+  }
+
+  .scroll-horizontal-card h3 {
+    color: var(--dapps-color-white);
+    padding: 1%;
+  }
+
+  .scroll-horizontal-card p {
+    color: var(--dapps-color-primary);
+  }
+}
 </style>

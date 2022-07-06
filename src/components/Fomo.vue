@@ -1,6 +1,8 @@
 <template>
-  <h1 class="fomo">FOMO</h1>
-  <img src="../../assets/metric.svg" class="metric" alt="metric" />
+  <div class="fomo-id">
+    <h1 class="fomo">FOMO</h1>
+    <img src="../../assets/metric.svg" class="metric" alt="metric" />
+  </div>
 </template>
 <script>
 export default {
@@ -19,7 +21,6 @@ export default {
 
 .metric {
     width: 90%;
-    height: 90%;
     margin-bottom: 3rem;
 }
 
@@ -28,6 +29,19 @@ export default {
     width: 50%;
     height: 50%;
     margin-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .fomo {
+      display: none;
+  }
+
+  .metric {
+      width: 70%;
+      height: 10vw;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
   }
 }
 </style>

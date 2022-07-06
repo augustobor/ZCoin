@@ -56,4 +56,12 @@ export default {
     overflow-y: hidden; 
     overflow-x: auto;
 }
+
+@media screen and (min-width: 1000px) {
+  .desktop-component > .horizontal-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+  }
+}
 </style>

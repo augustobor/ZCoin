@@ -1,19 +1,25 @@
 <template>
-  <form action="">
-    <h2>Calculate</h2>
-    <label for="">
-      ETH <input type="number" placeholder="0.32" v-model="unit" />
-    </label>
-    <img src="../../assets/switch.svg" class="switch-blue" alt="switch logo" />
-    <label for="">
-      USD
-      <input type="number" disabled="all" placeholder="32" v-model="amount" />
-    </label>
-    <a id="exchangeButton" @click="exchange()">
-      <p>SWAP</p>
-      <img src="../../assets/switch-white.svg" alt="switch logo" />
-    </a>
-  </form>
+  <div id="exchange">
+    <form action="">
+      <h2>Calculate</h2>
+      <label for="">
+        ETH <input type="number" placeholder="0.32" v-model="unit" />
+      </label>
+      <img
+        src="../../assets/switch.svg"
+        class="switch-blue"
+        alt="switch logo"
+      />
+      <label for="">
+        USD
+        <input type="number" disabled="all" placeholder="32" v-model="amount" />
+      </label>
+      <a id="exchangeButton" @click="exchange()">
+        <p>SWAP</p>
+        <img src="../../assets/switch-white.svg" alt="switch logo" />
+      </a>
+    </form>
+  </div>
 </template>
 <script>
 /*eslint-disable*/

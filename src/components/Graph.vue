@@ -1,16 +1,18 @@
 <template>
-  <img
-    src="../../assets/exchange-icon.svg"
-    class="exchange-icon"
-    alt="exchange icon"
-  />
-  <h1>Uniswap V3</h1>
-  <div class="graph-container">
-    <h2>Network:</h2>
-    <h3>ETH</h3>
+  <div id="graph">
+    <img
+      src="../../assets/exchange-icon.svg"
+      class="exchange-icon"
+      alt="exchange icon"
+    />
+    <h1>Uniswap V3</h1>
+    <div class="graph-container">
+      <h2>Network:</h2>
+      <h3>ETH</h3>
+    </div>
+    <h2>Stadistics</h2>
+    <img src="../../assets/graph.svg" class="graph" alt="graph" />
   </div>
-  <h2>Stadistics</h2>
-  <img src="../../assets/graph.svg" class="graph" alt="graph" />
 </template>
 <script>
 /*eslint-disable*/
@@ -54,6 +56,23 @@ h2 {
   }
   .graph-container {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .graph-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1% 25%;
+    margin-bottom: 0.4rem;
+  }
+
+  .graph {
+    src: url('../../assets/graph-desktop.svg');
+    width: 340px;
   }
 }
 </style>

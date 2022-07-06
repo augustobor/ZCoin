@@ -70,4 +70,28 @@ export default {
     font-size: x-large;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .row {
+    margin: 2% 0%;
+  }
+
+  .row h3 {
+    font-size: x-large;
+  }
+
+  .row p {
+    font-size: large;
+  }
+
+  .row > img {
+    width: 4%;
+    height: 4%;
+  }
+
+  .row:hover {
+    background-color: var(--dapps-color-semi-light);
+    transition: all 100ms ease;
+  }
+}
 </style>

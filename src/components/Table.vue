@@ -81,4 +81,10 @@ table {
     height: 52.8vh;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .table {
+    width: 100%;
+  }
+}
 </style>
