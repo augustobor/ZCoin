@@ -5,10 +5,10 @@
       class="exchange-icon"
       alt="exchange icon"
     />
-    <h1>Uniswap V3</h1>
+    <h1 class="uniswap">Uniswap V3</h1>
     <div class="graph-container">
       <h2>Network:</h2>
-      <h3>ETH</h3>
+      <h3 class="net">ETH</h3>
     </div>
     <h2>Stadistics</h2>
     <img src="../../assets/graph.svg" class="graph" alt="graph" />
@@ -23,8 +23,9 @@ export default {
 <style>
 @import "../stylesheets/config.css";
 
-h1, h3 {
+.uniswap, .net {
   color: var(--dapps-color-white);
+  text-align: center;
 }
 
 h2 {

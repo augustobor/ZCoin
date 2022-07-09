@@ -1,12 +1,14 @@
 <template>
   <tr class="row">
-    <img src="../../assets/star.svg" alt="star logo" />
-    <img src="../../assets/v-logo.svg" alt="icon logo" />
+    <div class="img">
+      <img src="../../assets/star.svg" alt="star logo" />
+      <img :src="this.icon" alt="icon" />
+    </div>
     <div>
-      <h3>{{ this.name }}</h3>
+      <h3 id="name">{{ this.name }}</h3>
       <p>{{ this.index }}</p>
     </div>
-    <h3>{{ this.volume }}</h3>
+    <h3 id="name">{{ this.volume }}</h3>
   </tr>
 </template>
 <script>
@@ -28,17 +30,22 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 2rem;
   transition: all 100ms ease;
 }
 
 .row > div {
   text-align: left;
+  width: 30%;
 }
 
-.row h3 {
+.row .img {
+}
+
+.row #name {
   color: var(--dapps-color-white);
+  text-align: left;
 }
 
 .row p {

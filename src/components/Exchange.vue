@@ -128,4 +128,28 @@ input::placeholder {
   }
 }
 
+@media screen and (min-width: 1000px) {
+
+label {
+  font-size: xx-large;
+}
+
+input {
+  width: 10vw;
+  margin-left: 1.5rem;
+}
+
+.switch-blue {
+  margin: 0.3rem 52%;
+  width: 2rem;
+  height: 2rem;
+}
+
+#exchangeButton {
+  width: 10vw;
+  font-size: large;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+}
 </style>
