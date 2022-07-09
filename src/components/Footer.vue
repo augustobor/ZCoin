@@ -29,7 +29,7 @@ export default {
   align-items: center;
   justify-content: space-around;
   padding: 1%;
-  height: 7vh;
+  height: 10.65vh;
 }
 
 #footer router-link {
@@ -42,5 +42,11 @@ export default {
 #footer router-link:hover {
   background-color: var(--dapps-color-extra);
   transition: all 500ms ease;
+}
+
+@media screen and (min-width: 500px) {
+  #footer {
+    height: 8vh;
+  }
 }
 </style>

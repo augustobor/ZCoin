@@ -68,6 +68,7 @@ h2 {
     align-items: center;
     justify-content: space-around;
     margin: 1% 25%;
+    margin-top: 0.1rem;
     margin-bottom: 0.4rem;
   }
 

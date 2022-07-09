@@ -56,11 +56,11 @@ export default {
 
   .desktop-component {
     display: block;
-    height: auto;
   }
 
   #home-desktop {
     display: flex;
+    height: 100vh;
     flex-wrap: wrap;
     flex-direction: columns;
   }

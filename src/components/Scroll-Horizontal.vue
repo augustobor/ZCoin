@@ -1,31 +1,31 @@
 <template>
   <div class="horizontal-scroll">
     <scroll-horizontal-card
-      logo="../../assets/ether.svg"
+      logo="ether.svg"
       index="Ether Logo"
       name="ETH"
       desc="51 projects"
     ></scroll-horizontal-card>
     <scroll-horizontal-card
-      logo="../../assets/neo.svg"
+      logo="neo.svg"
       index="Neo Logo"
       name="NEO"
       desc="21 projects"
     ></scroll-horizontal-card>
     <scroll-horizontal-card
-      logo="../../assets/rave.svg"
+      logo="rave.svg"
       index="Rave Logo"
       name="Rave"
       desc="18 projects"
     ></scroll-horizontal-card>
     <scroll-horizontal-card
-      logo="../../assets/ppc.svg"
+      logo="ppc.svg"
       index="PPC Logo"
       name="PPC"
       desc="4 projects"
     ></scroll-horizontal-card>
     <scroll-horizontal-card
-      logo="../../assets/bbc.svg"
+      logo="bbc.svg"
       index="BBC Logo"
       name="BBC"
       desc="43 projects"
