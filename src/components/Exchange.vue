@@ -148,7 +148,7 @@ input {
 #exchangeButton {
   width: 10vw;
   font-size: large;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 }

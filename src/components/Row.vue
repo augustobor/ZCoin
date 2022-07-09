@@ -1,10 +1,10 @@
 <template>
   <tr class="row">
-    <div class="img">
-      <img src="../../assets/star.svg" alt="star logo" />
-      <img :src="this.icon" alt="icon" />
+    <div class="img container">
+      <img src="../../assets/star.svg" alt="star logo" class="star" />
+      <img :src="require('../../assets/' + this.icon + '')" alt="icon" />
     </div>
-    <div>
+    <div class="container">
       <h3 id="name">{{ this.name }}</h3>
       <p>{{ this.index }}</p>
     </div>
@@ -35,12 +35,13 @@ export default {
   transition: all 100ms ease;
 }
 
-.row > div {
-  text-align: left;
-  width: 30%;
+.row > .container > img.star {
+  margin-right: 6%;
 }
 
-.row .img {
+.row > .container {
+  text-align: left;
+  width: 30%;
 }
 
 .row #name {
@@ -64,9 +65,13 @@ export default {
     align-items: center;
   }
 
-  .row > img {
-    width: 8%;
-    height: 8%;
+  .row > .container > img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .row > .container > img.star {
+    margin-right: 20%;
   }
 
   .row h3 {
@@ -81,6 +86,7 @@ export default {
 @media screen and (min-width: 1000px) {
   .row {
     margin: 2% 0%;
+    transform: scale(1.1);
   }
 
   .row h3 {
@@ -91,9 +97,9 @@ export default {
     font-size: large;
   }
 
-  .row > img {
-    width: 4%;
-    height: 4%;
+  .row > .container > img {
+    width: 15%;
+    height: 15%;
   }
 
   .row:hover {

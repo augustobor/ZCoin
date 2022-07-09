@@ -1,53 +1,40 @@
 <template>
   <div class="table">
     <row
-      icon="@/assets/v-logo.svg"
+      icon="v-logo.svg"
       name="Uniswap V3"
       index="ETH"
       volume="$119,61K"
     ></row>
     <row
-      icon="../../assets/v-logo.svg"
+      icon="metamask-swap.svg"
       name="MetaMask Swap"
       index="ETH"
       volume="$9.23B"
     ></row>
+    <row icon="sushi.svg" name="Sushi" index="ETH" volume="$119,61K"></row>
+    <row icon="hex.svg" name="HEX" index="ETH" volume="$119,61K"></row>
     <row
-      icon="../../assets/v-logo.svg"
-      name="Sushi"
-      index="ETH"
-      volume="$119,61K"
-    ></row>
-    <row
-      icon="../../assets/v-logo.svg"
-      name="HEX"
-      index="ETH"
-      volume="$119,61K"
-    ></row>
-    <row
-      icon="../../assets/v-logo.svg"
+      icon="mirandus.svg"
       name="Mirandus"
       index="ETH"
       volume="$119,61K"
     ></row>
+    <row icon="curve.svg" name="Curve" index="ETH" volume="$119,61K"></row>
+    <row icon="rarible.svg" name="Rarible" index="ETH" volume="$119,61K"></row>
     <row
-      icon="../../assets/v-logo.svg"
-      name="Curve"
-      index="ETH"
-      volume="$119,61K"
-    ></row>
-    <row
-      icon="../../assets/v-logo.svg"
-      name="Rarible"
-      index="ETH"
-      volume="$119,61K"
-    ></row>
-    <row
-      icon="../../assets/v-logo.svg"
+      icon="1inch.svg"
       name="1inch Network"
       index="ETH"
       volume="$119,61K"
     ></row>
+    <row
+      icon="shibaswap.svg"
+      name="ShibaSwap"
+      index="ETH"
+      volume="$119,61K"
+    ></row>
+    <row icon="mirror.svg" name="Mirror" index="ETH" volume="$119,61K"></row>
   </div>
 </template>
 <script>
@@ -67,7 +54,7 @@ table {
 }
 
 .table {
-  height: 57.2vh;
+  height: 52.2vh;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -78,14 +65,14 @@ table {
 
 @media screen and (min-width: 500px) {
   .table {
-    height: 52.8vh;
+    height: 54.7vh;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .table {
+    height: 68vh;
     width: 100%;
-    height: 90%;
   }
 }
 </style>

@@ -1,7 +1,11 @@
 <template>
   <div class="scroll-horizontal-card">
     <article>
-      <img :src="this.logo" :alt="this.index" />
+      <img
+        :src="require('../../assets/' + this.logo + '')"
+        class="icon"
+        :alt="this.index"
+      />
       <div>
         <h3>{{ this.name }}</h3>
         <p>{{ this.desc }}</p>
@@ -71,6 +75,11 @@ export default {
 
   .scroll-horizontal-card p {
     color: var(--dapps-color-primary);
+  }
+
+  article .icon {
+    width: 30%;
+    height: 30%;
   }
 }
 </style>

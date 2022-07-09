@@ -1,6 +1,6 @@
 <template>
   <div class="row-social">
-    <img :src="this.logo" alt="social logo" />
+    <img :src="require('../../assets/' + this.logo + '')" alt="social logo" />
     <div class="bar">
       <p
         class="progress"

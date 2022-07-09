@@ -1,15 +1,9 @@
 <template>
   <div id="SocialData">
     <h2 class="Social-Data-h2">Social data</h2>
-    <Social-Row logo="../../assets/facebook.svg" percent="0.3"></Social-Row>
-    <Social-Row
-      logo="../../assets/twitter-square.svg"
-      percent="0.5"
-    ></Social-Row>
-    <Social-Row
-      logo="../../assets/youtube-square.svg"
-      percent="0.2"
-    ></Social-Row>
+    <Social-Row logo="facebook.svg" percent="0.3"></Social-Row>
+    <Social-Row logo="twitter-square.svg" percent="0.5"></Social-Row>
+    <Social-Row logo="youtube-square.svg" percent="0.2"></Social-Row>
   </div>
 </template>
 <script>
