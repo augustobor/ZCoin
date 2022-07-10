@@ -54,7 +54,7 @@ table {
 }
 
 .table {
-  height: 50.2vh;
+  height: 52.2vh;
   width: 100vw;
   overflow-x: hidden;
 }
