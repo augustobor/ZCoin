@@ -23,6 +23,8 @@ export default {
 };
 </script>
 <style>
+@import url("../stylesheets/config.css");
+
 SocialData {
   margin-bottom: 50rem;
 }
@@ -34,7 +36,7 @@ SocialData {
 
 @media screen and (min-width: 500px) {
   .fomo-view-container {
-    height: 67vh;
+    height: var(--height-overflow-tablet);
   }
 }
 </style>

@@ -25,6 +25,8 @@ export default {
 };
 </script>
 <style>
+@import url('../stylesheets/config.css');
+
 .exchange-view-container {
   height: var(--height-overflow);
   overflow-x: hidden;
@@ -32,7 +34,7 @@ export default {
 
 @media screen and (min-width: 500px) {
   .exchange-view-container {
-    height: 68vh;
+    height: var(--height-overflow-tablet);
   }
 }
 
