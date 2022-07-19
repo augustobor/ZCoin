@@ -27,7 +27,7 @@ export default {
 <style>
 .exchange-view-container {
   overflow-x: hidden;
-  height: 75vh;
+  height: 65vh;
 }
 
 @media screen and (min-width: 500px) {
