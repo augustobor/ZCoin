@@ -65,7 +65,7 @@ table {
 
 @media screen and (min-width: 1000px) {
   .table {
-    height: 68vh;
+    height: 60vh;
     width: 100%;
   }
 
