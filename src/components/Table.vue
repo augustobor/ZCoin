@@ -54,19 +54,13 @@ table {
 }
 
 .table {
-  height: 380px;
+  height: 47vh;
   width: 100vw;
   overflow-x: hidden;
 }
 
 .table .row {
   width: 97%;
-}
-
-@media screen and (min-width: 500px) {
-  .table {
-    height: 480px;
-  }
 }
 
 @media screen and (min-width: 1000px) {

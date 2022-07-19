@@ -1,24 +1,17 @@
 # z-coin
 
-## Project setup
-```
-npm install
-```
+### ZCoin is a web project SPA which simulate a defi exchange.    
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### In the website you could see:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Ethereum projects
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Exchange in ETH
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- A FOMO index
+
+#### This website is responsive and with vue router I created a menu in mobile and tablet versions. 
+
+#### All the project is built with vue-cli and would be able to connect your wallet and simulate an exchange in web 3.
+
+
