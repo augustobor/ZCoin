@@ -1,8 +1,10 @@
 <template>
   <div class="home-mobile-tablet">
     <Header class="mobile-component"></Header>
-    <ScrollHorizontal class="mobile-component"></ScrollHorizontal>
-    <Table class="mobile-component"></Table>
+    <div>
+      <ScrollHorizontal class="mobile-component"></ScrollHorizontal>
+      <Table class="mobile-component"></Table>
+    </div>
     <Footer class="mobile-component"></Footer>
   </div>
   <div id="home-desktop">
@@ -45,6 +47,10 @@ export default {
 <style>
 .desktop-component {
   display: none;
+}
+
+.home-mobile-tablet > div {
+  height: 68;
 }
 
 @media screen and (min-width: 1000px) {
