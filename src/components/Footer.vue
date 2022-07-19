@@ -29,7 +29,7 @@ export default {
   align-items: center;
   justify-content: space-around;
   padding: 1%;
-  height: 10.65vh;
+  height: var(--height-menu);
 }
 
 #footer router-link {
@@ -46,7 +46,11 @@ export default {
 
 @media screen and (min-width: 500px) {
   #footer {
-    height: 8vh;
+    height: 150px;
+  }
+
+  #footer img {
+    transform: scale(1.5);
   }
 }
 </style>

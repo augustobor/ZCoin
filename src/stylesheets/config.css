@@ -6,4 +6,11 @@
     --dapps-color-primary: #007EA7;
     --dapps-color-secondary: #003249;
     --dapps-color-dark: #012231;
+
+
+    --border-radious-units: 8px;
+
+    --width-menu: 360px;
+    --height-menu: 118px;
+
 }

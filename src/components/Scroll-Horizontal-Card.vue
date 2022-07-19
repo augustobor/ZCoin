@@ -31,8 +31,8 @@ export default {
   background-color: var(--dapps-color-semi-light);
   margin: 3%;
   width: 55vw;
-  padding: 6%;
-  border-radius: 10px;
+  padding: 8px;
+  border-radius: var(--border-radious-units);
   align-self: center;
 }
 
@@ -59,6 +59,10 @@ export default {
   .scroll-horizontal-card {
     width: 20%;
     padding: 3%;
+  }
+
+  .scroll-horizontal-card > article > img {
+    transform: scale(1.2);
   }
 }
 

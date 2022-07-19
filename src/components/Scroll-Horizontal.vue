@@ -48,7 +48,7 @@ export default {
     height: 15vh;
     margin: 0 1rem;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

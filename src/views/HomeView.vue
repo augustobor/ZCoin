@@ -11,7 +11,6 @@
       <Table class="desktop-component"></Table>
     </main>
     <aside class="desktop-component">
-      <Fomo class="desktop-component"></Fomo>
       <Graph class="desktop-component"></Graph>
       <Exchange class="desktop-component"></Exchange>
     </aside>
@@ -70,7 +69,9 @@ export default {
   }
 
   aside.desktop-component {
+    margin: 2% 0;
     width: 30%;
+    height: 10%;
   }
 
 }

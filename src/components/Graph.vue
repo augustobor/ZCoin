@@ -61,6 +61,8 @@ h2 {
 }
 
 @media screen and (min-width: 1000px) {
+
+
   .graph-container {
     display: flex;
     flex-wrap: wrap;
@@ -74,7 +76,7 @@ h2 {
 
   .graph {
     src: url('../../assets/graph-desktop.svg');
-    width: 340px;
+    width: 300px;
   }
 }
 </style>

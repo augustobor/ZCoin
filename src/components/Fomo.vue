@@ -31,20 +31,4 @@ export default {
     margin-bottom: 0rem;
   }
 }
-
-@media screen and (min-width: 1000px) {
-  .fomo {
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    color: var(--dapps-color-white);
-    font-size: xx-large;
-  }
-
-  .metric {
-      width: 70%;
-      height: 10vw;
-      margin-top: 1rem;
-      margin-bottom: 0.6rem;
-  }
-}
 </style>

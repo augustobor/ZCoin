@@ -65,7 +65,7 @@ input {
   background-color: transparent;
   border-style: solid;
   border-color: var(--dapps-color-primary);
-  border-radius: 10px;
+  border-radius: var(--border-radious-units);
   height: 2.5rem;
   width: 50vw;
   margin-left: 1rem;
@@ -90,8 +90,8 @@ input::placeholder {
 }
 
 #exchangeButton {
-  padding: 2%;
-  border-radius: 10px;
+  padding: 4%;
+  border-radius:  var(--border-radious-units);
   background-color: var(--dapps-color-secondary);
   color: var(--dapps-color-white);
   font-weight: bold;

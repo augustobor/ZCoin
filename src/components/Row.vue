@@ -30,7 +30,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 2rem;
   transition: all 100ms ease;
 }

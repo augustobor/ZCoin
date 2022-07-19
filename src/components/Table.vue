@@ -54,7 +54,7 @@ table {
 }
 
 .table {
-  height: 52.2vh;
+  height: 380px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -65,7 +65,7 @@ table {
 
 @media screen and (min-width: 500px) {
   .table {
-    height: 54.7vh;
+    height: 480px;
   }
 }
 
@@ -73,6 +73,10 @@ table {
   .table {
     height: 68vh;
     width: 100%;
+  }
+
+  .table img {
+    transform: scale(1.2);
   }
 }
 </style>

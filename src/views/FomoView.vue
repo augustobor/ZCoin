@@ -29,6 +29,12 @@ SocialData {
 
 .fomo-view-container {
   overflow-x: hidden;
-  height: 79vh;
+  height: 69vh;
+}
+
+@media screen and (min-width: 500px) {
+  .fomo-view-container {
+    height: 67vh;
+  }
 }
 </style>
