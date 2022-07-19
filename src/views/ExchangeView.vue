@@ -26,7 +26,7 @@ export default {
 </script>
 <style>
 .exchange-view-container {
-  height: 68;
+  height: var(--height-overflow);
   overflow-x: hidden;
 }
 

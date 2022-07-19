@@ -45,17 +45,20 @@ export default {
 };
 </script>
 <style>
+@import url('../stylesheets/config.css');
+
 .desktop-component {
   display: none;
 }
 
 .home-mobile-tablet > div {
-  height: 68;
+  height: var(--height-overflow);
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1000px) {
 
-  .mobile-component, #header, #footer {
+  .mobile-component, #header, #footer,.home-mobile-tablet > div  {
     display: none;
   }
 
