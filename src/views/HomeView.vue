@@ -55,12 +55,6 @@ export default {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 500px) {
-  .home-mobile-tablet > div {
-    height: var(--height-overflow-tablet);
-  }
-}
-
 @media screen and (min-width: 1000px) {
 
   .mobile-component, #header, #footer,.home-mobile-tablet > div  {
