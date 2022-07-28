@@ -52,7 +52,6 @@ export default {
 }
 
 .home-mobile-tablet > div {
-  height: 72vh;
   overflow-x: hidden;
 }
 
