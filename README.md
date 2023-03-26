@@ -16,11 +16,11 @@
 
 ## 👨‍💻 Dev Tools
 
-- [![HTML](https://img.shields.io/badge/html-E34C26?style=for-the-badge&logo=html5&logoColor=F06529&labelColor=000000)]()
-- [![CSS](https://img.shields.io/badge/css-66D3FA?style=for-the-badge&logo=css3&logoColor=3C99DC&labelColor=D5F3FE)]()
-- [![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=323330)]() 
-- [![Vue.js](https://img.shields.io/badge/vue.js-101010?style=for-the-badge&logo=vue.js&logoColor=35495E&labelColor=42B883)]() 
+- <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+- <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
+- <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/> </a> 
 
 ## 🎨 Design Tools
 
-- [![Figma](https://img.shields.io/badge/figma-CB3234?style=for-the-badge&logo=figma&logoColor=CB3234&labelColor=101010)]() 
+- <a href="https://www.figma.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="figma" width="40" height="40"/> </a>
